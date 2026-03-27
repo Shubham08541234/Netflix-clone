@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.netflix-letter-spacing {
+    letter-spacing: 2px;
+}
+
+.flex-column{
+    flex-direction: column;
+}

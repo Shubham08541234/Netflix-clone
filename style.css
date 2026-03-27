@@ -1,0 +1,122 @@
+:root {
+    --button-color: rgb(229, 9, 20);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.741), rgba(0,0,0,.5)), url('/images/image.png') no-repeat center/cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar__logo{
+    display: inline-block;
+    color: var(--button-color);
+}
+
+.navbar__logo svg {
+    width: 120px;
+    height: auto;
+    fill: currentColor;
+}
+
+.navbar-btn {
+    width: 10%;
+    gap: 10px
+}
+
+.navbar-btn__lang {
+    padding: 2px 4px;
+    
+}
+
+.navbar-btn__lang{
+    padding: 5px 2px;
+    width: 60%;
+    border-radius: 2px;
+    border:1px solid rgba(101, 101, 101, 0.637);
+    background-color: rgba(128, 128, 128, 0.625);
+    outline: 1px solid rgba(255, 255, 255, 0.8);
+    outline-offset: 2px;
+    color: white;
+}
+
+.navbar-btn__signIn{
+    width: 40%;
+    padding: 5px 2px;
+    border-radius: 2px;
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    font-size: .8rem;
+    letter-spacing: .3px;
+}
+
+
+
+
+.section{
+    height: 80%;
+}
+
+
+.section-text__up {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+.section-text__down {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.section-textLow__para{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    padding-bottom: 8px;
+}
+
+.section-textLow__inp{
+    padding: .8rem .5rem;
+    width: 100%;
+    border-radius: 2px;
+    border:1px solid rgba(101, 101, 101, 0.637);
+    background-color: rgba(128, 128, 128, 0.262);
+}
+
+.section-textLow__inp::placeholder{
+    color:rgb(147, 147, 147);
+    font-size: 1rem;
+    letter-spacing: .5px;
+}
+
+.section-textLow__btn{
+    padding: .8rem .5rem;
+    width: 50%;
+    border-radius: 2px;
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    font-size: 1rem;
+    letter-spacing: .3px;
+}

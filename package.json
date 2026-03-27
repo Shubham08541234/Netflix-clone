@@ -1,0 +1,22 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham08541234/Netflix-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubham08541234/Netflix-clone/issues"
+  },
+  "homepage": "https://github.com/Shubham08541234/Netflix-clone#readme",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
