@@ -52,8 +52,6 @@ body {
     border-radius: 2px;
     border:1px solid rgba(101, 101, 101, 0.637);
     background-color: rgba(128, 128, 128, 0.625);
-    outline: 1px solid rgba(255, 255, 255, 0.8);
-    outline-offset: 2px;
     color: white;
 }
 
