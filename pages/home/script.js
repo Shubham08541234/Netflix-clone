@@ -1,0 +1,1 @@
+const signinNav = document.querySelector
